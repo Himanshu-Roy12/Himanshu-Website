@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+.nav_bar{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav_bar a{
+  text-decoration: none;
+  color:red;
+  font-size: 6vw;
+  background-color: black;
+}
+.logo{
+  color:white;
+  background-color: black;
+}
+.hello{
+  text-align: center;
+  color: blue;
+  margin-top: 9vw;
+}
+.full{
+  text-align: center;
+  margin-top: 2vw;
+}
+.himanshu{
+  color: rgb(6, 239, 37);
+}
+.paragraph{
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+  color:rgb(94, 87, 87);
+}
+.linkdin{
+  width: 50px;
+  border-radius: 15px;
+  margin:15px;
+  background-color: blue;
+}
+.watsapp{
+  width: 50px;
+  border-radius: 15px;
+  margin:15px;
+  background-color: rgb(6, 239, 37);
+}
+.instagram{
+  width: 50px;
+  border-radius: 15px;
+  margin:15px;
+  background-color: rgb(248, 9, 140);
+}
+.icon_mail{
+  display: flex;
+  justify-content: center;
+}
+.email{
+  width: 50px;
+  border-radius: 15px;
+  margin:15px;
+  background-color:rgb(246, 154, 6);
+}
+.email:hover{
+  filter: drop-shadow(0px 0px 10px rgb(246, 154, 6));
+}
+.linkdin:hover{
+  filter: drop-shadow(0px 0px 10px blue);
+}
+.watsapp:hover{
+  filter: drop-shadow(0px 0px 10px rgb(6, 239, 37))
+}
+.instagram:hover{
+  filter: drop-shadow(0px 0px 10px rgb(248, 9, 140))
+}
+.icons{
+  display: flex;
+  justify-content: center;
+}
+.himanshu_image{
+  width: 390px;
+  border-radius: 50%;
+}
